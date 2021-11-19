@@ -33,6 +33,6 @@ root.wm_iconbitmap(r"icon.ico")
 s = ttk.Style().configure('my.TButton', font="firacode 14")
 
 ttk.Button(root, text="Choose File", style="my.TButton",
-           command=OpenFile, width=7).pack(padx=5, pady=10,expand=True)
+           command=OpenFile, width=10).pack(padx=5, pady=10,expand=True)
 
 root.mainloop()
